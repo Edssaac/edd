@@ -1,0 +1,30 @@
+body {
+    background: lavenderblush;
+    font-family: Arial;
+  }
+  
+  .menu {
+    background-color: linen;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  } 
+  
+  .site-tittle, .site-subtittle {
+    text-align: center;  
+  }
+  
+  .site-subtittle {
+    font-style: italic;
+  }
