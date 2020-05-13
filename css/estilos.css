@@ -29,7 +29,8 @@ header {
 }
   
 .menu {
-  background-color: linen;
+  background-color: black;
+  /*opacity: 0.9;*/
   position: fixed;
   width: 100vw;
   top: 0;
@@ -42,10 +43,10 @@ header {
   list-style-type: none;
 }
 .menu a {
-  padding: 10px;
+  padding: 15px;
   display: block;
   background-color: rgba(221, 176, 181, 0.171);
-  color: black;
+  color: white;
 }
  
 a {
@@ -62,8 +63,35 @@ a:hover {
   font-style: italic;
 }
 
+section h2 {
+  text-align: center;
+}
+
+.imagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}  
+
+.imagens img{
+  margin-left: 20px;
+  margin-right: 30px;
+  border: 5px solid grey;
+}
+
 .img-portfolio {
   height: 180px;
   width: 180px;
-}
-  
+  }
+
+
+
+
+
+
+
+
+
+
