@@ -1,3 +1,3 @@
 # edd
-meu primeiro projeto de site, utilizando html e css.
+my first website project, using html and css.
 html/css: https://edssaac.github.io/edd/
