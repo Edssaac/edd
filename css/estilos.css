@@ -83,9 +83,16 @@ section {
   }  
 }
 
+.portfolio {
+  padding: 2.5vh;
+}
+.portfolio h3 {
+  padding-bottom: 1em;
+}
+
 .imagens {
 	display: flex;
-	align-items: baseline;
+	align-items: center;
   justify-content: center;
   flex-direction: row;
 	flex-wrap: wrap;
@@ -113,16 +120,43 @@ section {
 figcaption {
   line-height: 1.8em;
   font-family: 'Baloo 2', cursive;
+  padding-bottom: 1em;
+}
+
+.contato h2 {
+  font-size: 2em;
+  margin-left: 0.4em;
+  text-align: left;
+  padding-bottom: 0.2em;
+}
+.contato a {
+  color: black;
+  font-size: 4em;
+}
+
+.contato .icons {
+  text-align: center;
+  
 }
 
 
+.contato a:hover {
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
+.fab.fa-github {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fab.fa-twitter {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fab.fa-linkedin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fas.fa-at {
+  margin-left: 10px;
+  margin-right: 10px;
+}
