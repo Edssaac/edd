@@ -1,2 +1,2 @@
 # edd
-#html/css: https://edssaac.github.io/edd/
+html/css: https://edssaac.github.io/edd/
