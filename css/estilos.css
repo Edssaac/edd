@@ -36,6 +36,7 @@ header {
   position: fixed;
   width: 100vw;
   top: 0;
+  z-index: 1;
 }
 .menu ul {
   display: flex;
@@ -89,6 +90,9 @@ section {
 .portfolio h3 {
   padding-bottom: 1em;
 }
+.portfolio a {
+  font-family: 'Baloo 2', cursive; 
+}
 
 .imagens {
 	display: flex;
@@ -104,59 +108,39 @@ section {
   margin-right: 30px;
 }
 
-.img-portfolio1 {
+.img-portfolio  {
   height: 133.625px;
   width: 200.5px;
+  object-fit: cover;
+  object-position: left bottom;
+  transition: transform 500ms;
 }
-.img-portfolio2 {
-  height: 133.625px;
-  width: 200.5px;
-}
-.img-portfolio3 {
-  height: 133.625px;
-  width: 200.5px;
-}
-
-figcaption {
-  line-height: 1.8em;
-  font-family: 'Baloo 2', cursive;
-  padding-bottom: 1em;
+.img-portfolio:hover  {
+  transform: scale(0.9);
 }
 
 .contato h2 {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
   margin-left: 0.4em;
   text-align: left;
   padding-bottom: 0.2em;
 }
 .contato a {
   color: black;
-  font-size: 4em;
+  font-size: 3.4em;
 }
 
 .contato .icons {
-  text-align: center;
-  
+  text-align: left;
 }
 
+.fab.fa-github, .fab.fa-twitter, .fab.fa-linkedin, .fas.fa-at {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .contato a:hover {
   text-decoration: none;
-}
-
-.fab.fa-github {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.fab.fa-twitter {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.fab.fa-linkedin {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.fas.fa-at {
-  margin-left: 10px;
-  margin-right: 10px;
+  text-shadow: 0px 0px 10px rgb(129, 76, 76, 0.9);
 }
