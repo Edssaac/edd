@@ -149,3 +149,6 @@ h4 {
   font-size: 0.5em;
   padding-top: 2em;
 }
+.contato h4 a {
+  font-size: 1em;  
+}
