@@ -144,3 +144,8 @@ section {
   text-decoration: none;
   text-shadow: 0px 0px 10px rgb(129, 76, 76, 0.9);
 }
+
+.contato h4 {
+  font-size: 0.5em;
+  padding-top: 2em;
+}
