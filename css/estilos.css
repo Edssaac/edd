@@ -88,6 +88,10 @@ section {
   min-height: 50vh;
 }
 
+.gamb {
+  color: #DCCFC9; 
+}
+
 @media (min-width: 1200px) {
   .sobre p{
     max-width: 1200px;
@@ -163,7 +167,9 @@ section {
 .img-portfolio:hover  {
   transform: scale(0.9);
 }
-
+.contato {
+  background-color: rgb(201, 191, 187) ;
+} 
 .contato h2 {
   font-size: 1.5em;
   font-family: 'Roboto', sans-serif;
