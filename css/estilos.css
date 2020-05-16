@@ -95,8 +95,10 @@ section {
 @media (min-width: 1200px) {
   .sobre p{
     max-width: 1200px;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10em;
+    padding-right: 10em;
   }
  }
  
@@ -124,7 +126,7 @@ section {
   text-indent: 1em;
   text-align: justify;
   font-family: 'Baloo 2', cursive;
-  font-size: medium;
+  font-size: medium;  
 }
 
 .sobre a {
