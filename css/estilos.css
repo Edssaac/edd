@@ -167,6 +167,8 @@ section {
   transition: transform 500ms;
 
   border-radius: 8px;
+  border-style: solid;
+  border-color: #000;
 }
 @media (min-width: 1200px) {
   .img-portfolio  {
